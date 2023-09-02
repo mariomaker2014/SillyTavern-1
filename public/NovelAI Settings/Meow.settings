@@ -1,0 +1,67 @@
+{
+    "temperature": "0.99",
+    "repetition_penalty": "3.50",
+    "repetition_penalty_range": "2090",
+    "repetition_penalty_slope": "3.00",
+    "tail_free_sampling": "0.950",
+    "min_length": "120",
+    "preamble": "[ Genre: (drama, romance, comedy and etc); Tags: (violence, action, size kink, slow burn and etc); Writing style: gradual slow narration, dynamic actions, vivid emotional descriptions; Scenario: (modern, medieval, cyberpunk, pirates and etc); Style: complex, sensory, visceral, immersive roleplay text game, natural narration pace ]",
+    "prefix": "theme_textadventure",
+    "cfg_uc": "{Write as {{user}}. Write what {{user}} says/does/feels/thinks. Impersonating {{user}}. Bad writing. Summarize.}",
+    "banned_tokens": "Instructions\nInstruction\n###\n##\n#\nInput\nInpu",
+    "order": [
+        6,
+        3,
+        0,
+        2,
+        5,
+        1,
+        4
+    ],
+    "logit_bias": [
+        {
+            "id": "c954d774-34e8-4088-8e03-3346e3b8921f",
+            "text": " Response",
+            "value": -100
+        },
+        {
+            "id": "f104aafd-6ee0-4813-948f-f3ed118ac0ca",
+            "text": " Instruction",
+            "value": -100
+        },
+        {
+            "id": "1b9551c6-ee8e-4161-b359-4dc87cb7d292",
+            "text": "#",
+            "value": -100
+        },
+        {
+            "id": "41e57d04-0865-4026-9a4b-c8be077da96a",
+            "text": "###",
+            "value": -100
+        },
+        {
+            "id": "07846ba2-7cee-4fea-a254-8c2ef911580c",
+            "text": " Inpu",
+            "value": -100
+        },
+        {
+            "id": "2a66b2f7-238c-4b2b-b08a-845ec1f146ec",
+            "text": "Input",
+            "value": -100
+        },
+        {
+            "id": "df8a93aa-f01e-413b-82d4-3256091f0605",
+            "text": " Input:",
+            "value": -100
+        },
+        {
+            "id": "ea565657-1766-406d-8c7a-bf38a1eef0c0",
+            "text": "Input:",
+            "value": -100
+        }
+    ],
+    "phrase_rep_pen": "aggressive",
+    "cfg_scale": "2.00",
+    "genamt": 1024,
+    "max_length": 7800
+}
